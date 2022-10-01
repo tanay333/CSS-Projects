@@ -1,0 +1,49 @@
+.ig-header-container {
+  position: fixed;
+  margin-left: 300px;
+  display: block;
+  border: 2px;
+}
+
+.ig-header {
+  display: grid;
+  grid-template-columns: 300px 1fr 280px;
+}
+
+.navigation-container {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ig-searchbar {
+  border-radius: 5px;
+  border-color: rgb(227, 227, 227);
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  background: lightgray;
+}
+
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-container img {
+  width: 25px;
+}
+
+.ig-logo {
+  width: 400px;
+}
+
+.ig-logo-container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
